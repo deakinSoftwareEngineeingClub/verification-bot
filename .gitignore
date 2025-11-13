@@ -1,3 +1,4 @@
+#.vscode/
 
 # contains keys
 config.json
@@ -8,5 +9,3 @@ config.json
 # Ignore dependencies
 node_modules/
 
-# Ignore build output
-dist/
