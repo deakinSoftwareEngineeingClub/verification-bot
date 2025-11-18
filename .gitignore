@@ -1,4 +1,5 @@
-#.vscode/
+#workspace 
+.vscode/
 
 # contains keys
 config.json

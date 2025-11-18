@@ -3,6 +3,8 @@ import { createClient } from '@supabase/supabase-js'
 import config from '../config/config.json' with { type: 'json' };
 
 
+//Status Incomplete - Needs to be used inconjuction with verificationModal 
+
 const supabase = createClient(config.supabaseUrl, config.supabaseKey);
 
 
