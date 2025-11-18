@@ -10,7 +10,7 @@ This Discord Verification Bot is an open-source project designed to automaticall
 
 ## Setup
 
--- To Be Done
+Change verificationChannel within "setupVerification.js" Event to your specific channelid
 
 ---
 
