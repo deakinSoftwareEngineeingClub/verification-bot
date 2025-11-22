@@ -2,18 +2,18 @@
 FROM node:25.2.0-alpine
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /usr/src/verification-bot
 
 # Install dependencies using the lockfile for reproducible builds
-COPY package.json package-lock.json ./
+COPY /src/package.json /src/package-lock.json ./
 RUN npm ci --only=production
 
 # Copy source code
-COPY . .
+COPY src ./src
 
 # Create a non-root user and change ownership
 RUN addgroup -S app && adduser -S -G app app \
-  && chown -R app:app /usr/src/app
+  && chown -R app:app /usr/src/verification-bot
 
 USER app
 
@@ -21,5 +21,5 @@ USER app
 ENV NODE_ENV=production
 
 # Start the bot
-CMD ["node", "index.js"]
+CMD ["node", "src/index.js"]
 
