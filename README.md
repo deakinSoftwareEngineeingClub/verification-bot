@@ -27,11 +27,11 @@ Note: This setup assumes that you have already either installed docker and/or ha
    3. Under Scopes, select `bot`
    4. Scroll down to `Bot Permissions`
    5. Select permissions, or later override it in the invite link.
-     - Verification Bot's Permission integer is `139855203392`.
+     - Verification Bot's Permission integer is `139855219776`.
    6. Copy the Generated URL, and invite your bot to your Discord server.
 
     OR 
-    1. `https://discord.com/oauth2/authorize?client_id=DISCORD_BOT_ID&permissions=139855203392&integration_type=0&scope=bot`
+    1. `https://discord.com/oauth2/authorize?client_id=DISCORD_BOT_ID&permissions=139855219776&integration_type=0&scope=bot`
 
 ### Setup Discord Bot on your machine
 
