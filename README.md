@@ -50,7 +50,7 @@ Or Use Docker
 1. Make sure Docker engine is running.
    - On Windows, open Docker Desktop.
    - On debian, run ```sudo systemctl start docker``` in terminal to start docker.
-2. Run the following commands inside of /verification-bot
+2. Run the following commands inside of verification-bot/ directory
 ```
 docker compose build
 docker compose up -d
